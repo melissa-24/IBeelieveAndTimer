@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/craftsnh/public_html/i-beelieve-timer
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp -R static $DEPLOYPATH
