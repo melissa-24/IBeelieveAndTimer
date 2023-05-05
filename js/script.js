@@ -6,7 +6,7 @@ const resetAction = document.getElementById("reset-timer");
 
 const timeoutAudio = document.getElementById("alarm_audio");
 
-const defaultValue = 20 * 60;
+const defaultValue = 30;
 
 var countDownTime = defaultValue;
 
